@@ -8,7 +8,7 @@ fn main() {
 }
 
 fn prob_one() {
-    let instructions = fs::read_to_string("input.txt").expect("Couldn't read input file");
+    let instructions = fs::read_to_string("src/input.txt").expect("Couldn't read input file");
 
     let mut current_num: i32 = 50;
 
@@ -32,7 +32,7 @@ fn prob_one() {
 }
 
 fn prob_two() {
-    let instructions = fs::read_to_string("input.txt").expect("Couldn't read input file");
+    let instructions = fs::read_to_string("src/input.txt").expect("Couldn't read input file");
 
     let mut current_num: i32 = 50;
 
